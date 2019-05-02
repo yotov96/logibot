@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1582983439206938}
+  m_IsPrefabParent: 1
+--- !u!1 &1582983439206938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4841728043863674}
+  - component: {fileID: 114608824861795526}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4841728043863674
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1582983439206938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3630001, y: 2.03, z: 3.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114608824861795526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1582983439206938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc794ffa7a877054eaf710d34ae03eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asrc: {fileID: 0}
+  successClip: {fileID: 8300000, guid: 45ae0b1b188a1cb4886d012ab20b47de, type: 3}
+  failureClip: {fileID: 8300000, guid: 216d1f6e5934a5546b0726ef97c32b1e, type: 3}
+  outsideWalls: {fileID: 0}
+  walls: {fileID: 0}
+  tile: {fileID: 1293182527690998, guid: 1c501bd76804b5b478aca51e263c275e, type: 2}
+  forwardSlot: {fileID: 0}
+  leftSlot: {fileID: 0}
+  rightSlot: {fileID: 0}
+  jumpSlot: {fileID: 0}
+  startTile: {fileID: 0}
+  tick: {fileID: 0}
+  cross: {fileID: 0}
+  infoText: {fileID: 0}
+  table: {fileID: 0}
+  level1: {fileID: 1719684301689500, guid: a8b04066e2b8bf849b38d8e6f0aa5134, type: 2}
+  level2: {fileID: 1128160123982424, guid: 1261ae432c32efd41b1606ec700d4a16, type: 2}
+  level3: {fileID: 1429735155515378, guid: 538ea47abe970a64d86a01d867bb9a31, type: 2}
+  level4: {fileID: 1592548222801910, guid: 9f790423fc625554bb0db891c4f41fd6, type: 2}
+  level5: {fileID: 1807520821802238, guid: 0083a3e59eabba34ba7c0f35ca970c0b, type: 2}
+  robot: {fileID: 0}
+  instructionBoard: {fileID: 0}
+  procedureDesk: {fileID: 0}
+  robotPrefab: {fileID: 1151303907222048, guid: b8c830b84b109a34884b72566804f9d5,
+    type: 2}
+  startMat: {fileID: 2100000, guid: bd49de030e02d31468e6579acfb91280, type: 2}
+  endMat: {fileID: 2100000, guid: 113a19852dfcf0d46b898f87e8406a13, type: 2}
+  defaultMat: {fileID: 2100000, guid: 215d798315d2e7145ae8f297bd72eaf2, type: 2}
+  level: 1

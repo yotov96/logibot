@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: fc794ffa7a877054eaf710d34ae03eff
+timeCreated: 1542655221
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tile: {fileID: 1293182527690998, guid: 1c501bd76804b5b478aca51e263c275e, type: 2}
+  - level1: {fileID: 1719684301689500, guid: a8b04066e2b8bf849b38d8e6f0aa5134, type: 2}
+  - level2: {instanceID: 0}
+  - level3: {instanceID: 0}
+  - level4: {instanceID: 0}
+  - level5: {instanceID: 0}
+  - robotPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
